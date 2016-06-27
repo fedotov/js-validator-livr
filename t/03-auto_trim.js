@@ -9,6 +9,8 @@ var validator = new LIVR.Validator({
     }}
 }, true);
 
+suite('Auto trim');
+
 test('NEGATIVE: Validate data with automatic trim', function() {
     var output = validator.validate({
         code: '  ',

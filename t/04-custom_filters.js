@@ -28,6 +28,8 @@ LIVR.Validator.registerDefaultRules({
     }
 });
 
+suite('Custom filters');
+
 test('Validate data with registered rules', function() {
     var validator = new LIVR.Validator({
         word1: ['my_trim', 'my_lc', 'my_ucfirst'],
